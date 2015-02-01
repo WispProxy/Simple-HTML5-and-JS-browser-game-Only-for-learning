@@ -1,0 +1,27 @@
+/*
+ * This Base style for project
+ */
+* {
+  margin:             0;
+  padding:            0;
+}
+
+body {
+  background-color:   #eeeeee;
+  font-size:          18px;
+  color:              #444444;
+  letter-spacing:     .05em;
+}
+
+header p {
+  margin:             10px auto;
+  top:                10px;
+  text-align:         center;
+  font-weight:        bold;
+}
+
+footer p {
+  text-align:         center;
+  font-weight:        bold;
+  margin-bottom:      10px;
+}

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Simple HTML5 and JS browser game</title>
+		<meta name="description" content="This simple HTML5 and JS browser game">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Include CSS Vendors -->
+		<link href="vendors/css/normalize.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- Include CSS and Font Project -->
+		<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+		<link href="project/css/base-style.css" rel="stylesheet" type="text/css" />
+		<link href="project/css/main-style.css" rel="stylesheet" type="text/css" />
+
+		<!-- Include JS Vendors -->
+		<script src="vendors/js/modernizr.min.js"></script>
+		<!--[if lt IE 9]>
+			<script src="vendors/js/ie9.js"></script>
+		<![endif]-->
+	</head>
+
+	<header>
+		<p>Simple HTML5 and JS browser game</p>
+	</header>
+
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">
+				You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+			</p>
+		<![endif]-->
+
+
+		<!-- .scene-container -->
+		<div class="scene-container">
+			<canvas id="scene" width="1000" height="600" tabindex="1"></canvas>
+		</div>
+		<!-- /.scene-container -->
+
+		<!-- Include JS Vendors -->
+		<script src="vendors/js/jquery.js"></script>
+		<!-- Include JS Project -->
+		<script src="project/js/main-script.js"></script>
+	</body>
+
+	<footer>
+		<p>&copy; Only for learning JS</p>
+	</footer>
+</html>
